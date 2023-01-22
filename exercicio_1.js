@@ -15,7 +15,9 @@ function calcularMDC(a, b) {
     }
 }
 
-var resultado1 = calcularMDC(14, 15);
+module.exports = { calcularMDC }
+
+/*var resultado1 = calcularMDC(14, 15);
 var resultado2 = calcularMDC(32, 48);
 var resultado3 = calcularMDC(100, 0);
 var resultado4 = calcularMDC(0, 100);
@@ -31,7 +33,7 @@ console.log("MDC entre 0 e 100: " + resultado4);
 console.log("MDC entre 0 e 0: " + resultado5);
 console.log("MDC entre 2000 e 1000: " + resultado6);
 console.log("MDC entre 1000 e 2000: " + resultado7);
-console.log("MDC entre 20 e 20: " + resultado8);
+console.log("MDC entre 20 e 20: " + resultado8);*/
 
 /*Explicação do segundo resultado:
 - resto de 32 com 48: 32
@@ -47,5 +49,3 @@ console.log("MDC entre 20 e 20: " + resultado8);
 
 /*Resultados comparados com a seguinte calculadora:
 https://www.4devs.com.br/calculadora_mdc*/
-
-module.exports = { calcularMDC }
